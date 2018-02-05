@@ -43,5 +43,7 @@ def play(board)
     turn(board)
     moves += 1
     if moves >=9
+      break
+    end
   end
 end
