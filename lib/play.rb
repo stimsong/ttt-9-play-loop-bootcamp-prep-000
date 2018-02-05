@@ -39,8 +39,9 @@ end
 
 def play(board)
   moves = 0
-  while moves <= 10
+  loop do
     turn(board)
     moves += 1
+    if moves <
   end
 end
