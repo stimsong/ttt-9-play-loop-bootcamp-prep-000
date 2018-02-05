@@ -42,6 +42,6 @@ def play(board)
   loop do
     turn(board)
     moves += 1
-    if moves <
+    if moves >=9
   end
 end
